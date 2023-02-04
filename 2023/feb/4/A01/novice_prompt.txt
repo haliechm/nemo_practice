@@ -32,13 +32,44 @@ where the angle bracketed items are placeholders for the actual answers.
 For example, the following input:
 
 ```
-6
-Rice 0.12 true 37
-Seaweed 2.95 true 113
-Avocado 0.22 true 45
-Salmon 1.77 false 48
-Yellowtail 0.53 false 41
-Eel 2.18 false 84
+[
+  {
+  name: "Rice",
+  pricePerOunce: 0.12,
+  isVegetarian: true,
+  caloriesPerOunce: 37,
+},
+  {
+  name: "Seaweed",
+  pricePerOunce: 2.95,
+  isVegetarian: true,
+  caloriesPerOunce: 113,
+},  
+{
+  name: "Avocado",
+  pricePerOunce: 0.22,
+  isVegetarian: true,
+  caloriesPerOunce: 45,
+},  
+{
+  name: "Salmon",
+  pricePerOunce: 1.77,
+  isVegetarian: false,
+  caloriesPerOunce: 48,
+},  
+{
+  name: "Yellowtail",
+  pricePerOunce: 0.53,
+  isVegetarian: false,
+  caloriesPerOunce: 41,
+},
+{
+  name: "Eel",
+  pricePerOunce: 2.18,
+  isVegetarian: false,
+  caloriesPerOunce: 84,
+},
+]
 ```
 
 Should produce the following output:
